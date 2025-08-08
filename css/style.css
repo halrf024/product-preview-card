@@ -1,0 +1,71 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  margin: 0;
+  background-color: #0D1B2A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.all {
+  background-color: #1B2A41;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.image {
+  width: 270px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+p {
+  color: #B0B0B0
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px; /* расстояние между ETH и временем */
+}
+
+.eth-info {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* расстояние между иконкой и текстом */
+  color: aqua;
+}
+
+.time-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #B0B0B0;
+}
+
+.icon1 {
+  width: 16px;
+  height: 16px;
+}
+
+.icon2 {
+  width: 16px;
+  height: 16px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;     /* по вертикали */
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+}
